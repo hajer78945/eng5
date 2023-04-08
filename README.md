@@ -238,32 +238,34 @@ $$Coverage = \frac{|Branches\ executed|}{|Total\ branches|}$$
 
 ## However….
 Coverage Is Not Strongly Correlated with Test Suite Effectiveness
-Laura Inozemtseva and Reid Holmes School of Computer Science. University of Waterloo Waterloo, ON, Canada {Iminozem,rtholmes}@uwaterloo.ca
+- Laura Inozemtseva and Reid Holmes School of Computer Science. University of Waterloo Waterloo, ON, Canada {Iminozem,rtholmes}@uwaterloo.ca
+
 We have extended these studies by evaluating the relation- ship between test suite size, coverage, and effectiveness for large Java programs. Our study is the largest to date in the literature: we generated 31,000 test suites for five systems consisting of up to 724,000 lines of source code. We measured the statement coverage, decision coverage, and modified con- dition coverage of these suites and used mutation testing to evaluate their fault detection effectiveness.
+
 We found that there is a low to moderate correlation between coverage and effectiveness when the number of test cases in the suite is controlled for. In addition, we found that stranger forms of coverage de not provide greater insight into the effectiveness of the suite. Our results suggest that coverage, while useful for identifying under-tested parts of a program, should not be used as a quality target because it is not a good indicator of test suite effectiveness.
-Testing: Black Box
+# Testing: Black Box
 Mauro Pezze and Michal Young. Software testing and analysis - process, principles and techniques. Wiley, 2007. 
-Black Box Testing
-	No access to “internals”
-	May have access, but don’t want to
-	We know the interface
-	Parameters
-	Possible functions / methods
-	We may have some form of specification document
-Testing Challenges
-	Many different types of input
-	Lots of different ways in which input choices can affect output
-	An almost infinite number of possible inputs & combinations
-Equivalence Partitioning (EP) Method
+## Black Box Testing
+No access to “internals”
+- May have access, but don’t want to
+We know the interface
+- Parameters
+- Possible functions / methods
+We may have some form of specification document
+## Testing Challenges
+- Many different types of input
+- Lots of different ways in which input choices can affect output
+- An almost infinite number of possible inputs & combinations
+## Equivalence Partitioning (EP) Method
 Identify tests by analysing the program interface
-	Decompose program into “functional units” 
-	Identify inputs / parameters for these units
-	For each input
-	Identify its limits and characteristics 
-	Define “partitions” - value categories 
-	Identify constraints between categories 
-	Write test specification
-Example – Generate Grading Component
+- Decompose program into “functional units” 
+- Identify inputs / parameters for these units
+- For each input
+-- Identify its limits and characteristics 
+-- Define “partitions” - value categories 
+-- Identify constraints between categories 
+-- Write test specification
+## Example – Generate Grading Component
 The component is passed an exam mark (out of 75) and a coursework (c/w) mark (out of 25), from which it generates a grade for the course in the range 'A' to 'D'. The grade is calculated from the overall mark which is calculated as the sum of the exam and c/w marks, as follows: 
 greater than or equal to 70 - 'A' 
 greater than or equal to 50, but less than 70 - ‘B’ 
