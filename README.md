@@ -104,6 +104,7 @@ Portability
 ## Steps Towards Software Quality:
 
 Use a standard development process
+
 Use a coding standard
 - Compliance with industry standards (e.g., ISO, Safety, etc.)
 - Consistent code quality 
