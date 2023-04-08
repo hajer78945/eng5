@@ -314,13 +314,15 @@ For others less so. Consider the following:
 - A phone app.
 - A web-page with a flash component.
 ## EP – 3.a Identify Categories
-Category	Description
-Valid	valid exam mark
-	valid coursework mark
-	valid total mark
-Invalid	invalid exam mark
-	invalid coursework mark
-	Invalid total mark
+| Category | Description |
+| --- | --- |
+| valid | valid exam mark |
+| valid | valid coursework mark |
+| valid | valid total mark |
+| Invalid | invalid exam mark |
+| Invalid | invalid coursework mark |
+| Invalid | Invalid total mark |
+
 ## EP: 3.b Define “Partitions” - value categories
 Significant value ranges / value-characteristics of an input
 Category	Description	Partition
