@@ -373,24 +373,27 @@ EM5 --> CM5
 ```
 ## Example: Inputs and Expected Outputs
 The test cases corresponding to partitions derived from the input exam mark are:
-Test Case	1	2	3
-Input (exam mark)	44	-10	93
-Input (c/w mark)	15	15	15
-total mark (as calculated)	59	5	108
-Partition tested (of exam mark)	0 < e < 75	e < 0	e > 7
-Exp. Output	'B'	'FM'	'FM'
-Boundary Values
-	Most frequently errors occur in "edge" cases
-	Test just under boundary value
-	Test just above the boundary value
-	Test the boundary value
-How do we go about using this?
+| Test Case | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| Input (exam mark) | 44 | -10 | 93 |
+| Input (c/w mark) | 15 | 15 | 15 |
+| total mark (as calculated) | 59 | 5 | 108 |
+| Partition tested (of exam mark) | 0 <= e <= 75 | e < 0 | e > 75 |
+| Exp. Output | 'B' | 'FM' | 'FM' |
+
+
+## Boundary Values
+Most frequently errors occur in "edge" cases
+- Test just under boundary value
+- Test just above the boundary value
+- Test the boundary value
+## How do we go about using this?
 Testing applied in Java unit
 Use JUnit
- uses “Assertions” to test the code
-Allow us to state what should be the case
-If assertions do not hold, JUnit’s logging mechanisms reports failures
-Various types of assertion are available, e.g., assertEquals( expected, actual ); assertTrue( condition ); assertFalse( condition ); assertThat ( value, matchingFunction )
+- uses “Assertions” to test the code
+- Allow us to state what should be the case
+- If assertions do not hold, JUnit’s logging mechanisms reports failures
+- Various types of assertion are available, e.g., assertEquals( expected, actual ); assertTrue( condition ); assertFalse( condition ); assertThat ( value, matchingFunction )
 # Review
 - What is Software Quality?
 - What are key elements and relationships for test specifications?
