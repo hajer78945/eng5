@@ -327,16 +327,16 @@ For others less so. Consider the following:
 Significant value ranges / value-characteristics of an input
 | Category | Description | Partition |
 | --- | --- | --- |
-| Valid | valid exam mark | 0 ≤  Exam mark ≤ 75 |
-| Valid | valid coursework mark | 0 ≤  Coursework mark ≤ 25 |
-| Invalid | invalid exam mark | Exam mark > 75 |
-| Invalid | invalid exam mark | Exam mark < 0 |
-| Invalid | invalid exam mark | alphabetic |
-| Invalid | invalid exam mark | real number |
-| Invalid | invalid coursework mark | Coursework mark > 25 |
-| Invalid | invalid coursework mark | Coursework mark < 0 |
-| Invalid | invalid coursework mark | alphabetic |
-| Invalid | invalid coursework mark | real number |
+| Valid | EM_1 valid exam mark | 0 ≤  Exam mark ≤ 75 |
+| Valid | CM_1 valid coursework mark | 0 ≤  Coursework mark ≤ 25 |
+| Invalid | EM_2 invalid exam mark | Exam mark > 75 |
+| Invalid | EM_3 invalid exam mark | Exam mark < 0 |
+| Invalid | EM_4 invalid exam mark | alphabetic |
+| Invalid | EM_5 invalid exam mark | real number |
+| Invalid | CM_2 invalid coursework mark | Coursework mark > 25 |
+| Invalid | CM_3 invalid coursework mark | Coursework mark < 0 |
+| Invalid | CM_4 invalid coursework mark | alphabetic |
+| Invalid | CM_5 invalid coursework mark | real number |
 
 ## EP – 3. c Identify Constraints between Categories
 	Not all categories can combine with each other
