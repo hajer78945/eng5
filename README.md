@@ -203,7 +203,7 @@ White box testing exploits this to
 ```mermaid
 graph TD;
 int_tri_type(int_a,int_b,inc_c) --> int_type
-; --> if(a>b) --> int_t=a;
+A --> B --> int_t=a;
 
 ```
 if(a > b) --> int t = a; --> a = b; --> b = t; --> if(a > c)
