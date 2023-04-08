@@ -325,18 +325,20 @@ For others less so. Consider the following:
 
 ## EP: 3.b Define “Partitions” - value categories
 Significant value ranges / value-characteristics of an input
-Category	Description	Partition
-Valid	EM_1 valid exam mark	0 ≤  Exam mark ≤ 75
-	CM_1 valid coursework mark	0 ≤  Coursework mark ≤ 25
-Invalid	EM_2 invalid exam mark	Exam mark > 75 
-	EM_3 invalid exam mark	Exam mark < 0
-	EM_4 invalid exam mark	alphabetic
-	EM_5 invalid exam mark	real number
-	CM_2 invalid coursework mark	Coursework mark > 25 
-	CM_3 invalid coursework mark	Coursework mark < 0
-	CM_4invalid coursework mark	alphabetic
-	CM_5 invalid coursework mark	real number
-EP – 3. c Identify Constraints between Categories
+| Category | Description | Partition |
+| --- | --- | --- |
+| Valid | valid exam mark | 0 ≤  Exam mark ≤ 75 |
+| Valid | valid coursework mark | 0 ≤  Coursework mark ≤ 25 |
+| Invalid | invalid exam mark | Exam mark > 75 |
+| Invalid | invalid exam mark | Exam mark < 0 |
+| Invalid | invalid exam mark | alphabetic |
+| Invalid | invalid exam mark | real number |
+| Invalid | invalid coursework mark | Coursework mark > 25 |
+| Invalid | invalid coursework mark | Coursework mark < 0 |
+| Invalid | invalid coursework mark | alphabetic |
+| Invalid | invalid coursework mark | real number |
+
+## EP – 3. c Identify Constraints between Categories
 	Not all categories can combine with each other
 Category		Condition
 valid exam mark	EM_1	0 ≤  Exam mark ≤ 75
