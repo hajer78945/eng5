@@ -110,8 +110,10 @@ Use a coding standard
 - Consistent code quality 
 - Secure from start
 - Reduce development costs and accelerate time to market
+
 Define and monitor metrics (defect metrics and complexity metrics) 
 - High complexity leads to higher number of defects
+
 Identify and remove defects
 - Conduct manual reviews
 - Use Testing 
