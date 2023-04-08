@@ -248,9 +248,11 @@ Mauro Pezze and Michal Young. Software testing and analysis - process, principle
 ## Black Box Testing
 No access to “internals”
 - May have access, but don’t want to
+
 We know the interface
 - Parameters
 - Possible functions / methods
+
 We may have some form of specification document
 ## Testing Challenges
 - Many different types of input
