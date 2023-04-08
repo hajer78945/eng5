@@ -1,11 +1,10 @@
-# eng5
-Overview
+# Overview
 	Software quality and how to get to it
 	Test-driven development
-	White box testing  
-	Black box testing 
-Software Quality
-Why is Software Quality relevant: Case of Bard
+    	White box testing  
+	    Black box testing 
+# Software Quality
+## Why is Software Quality relevant: Case of Bard
 Google Bard AI mistake just cost Google over $100 billion
 By Philip Michaels last updated February 09, 2023
 AI-powered chatbot makes costly error in early demo
