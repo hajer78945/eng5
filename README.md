@@ -203,8 +203,10 @@ White box testing exploits this to
 ```mermaid
 graph TD;
 id1["int tri_type(int a, int b, inc c)"]
-id1 --> int_type
-A --> B --> int_t=a;
+id2["int type;"]
+id1 --> id2;
+id3["if (a > b)"]
+id2 --> id3;
 
 ```
 if(a > b) --> int t = a; --> a = b; --> b = t; --> if(a > c)
