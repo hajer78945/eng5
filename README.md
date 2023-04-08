@@ -290,6 +290,7 @@ For some systems this is straightforward
 2. E.g., Grading Component
 	- Input: 2 integers: exam mark  and coursework mark
 	- Output: 1 String for grade
+
 For others less so. Consider the following:
 - A phone app.
 - A web-page with a flash component.
