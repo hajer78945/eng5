@@ -57,14 +57,17 @@ Functional Suitability
 - Functional Completeness
 - Functional Correctness
 - Functional Appropriateness
+
 Performance Efficiency
 - Time Behaviour
 - Resource Utilisation
 - Capacity
+
 Compatibility
 - Co-existence
 - Interoperability
-	Usability
+
+Usability
 - Appropriateness
 - Realisability
 - Learnability
@@ -72,42 +75,48 @@ Compatibility
 - User Error Protection
 - User Interface Aesthetics
 - Accessibility
-	Reliability
+
+Reliability
 - Maturity
 - Availability
 - Fault Tolerance
 - Recoverability
-	Security
+
+Security
 - Confidentiality
 - Integrity
 - Nonrepudiation
 - Authenticity
 - Accountability
-	Maintainability
+
+Maintainability
 - Modularity
 - Reusability 
 - Analysability
 - Modifiability
 - Testability
-	Portability
+
+Portability
 - Adaptability
 - Installability
 - Replaceability
-Steps Towards Software Quality:
-	Use a standard development process
-	Use a coding standard
-	Compliance with industry standards (e.g., ISO, Safety, etc.)
-	Consistent code quality 
-	Secure from start
-	Reduce development costs and accelerate time to market
-	Define and monitor metrics (defect metrics and complexity metrics) 
-	High complexity leads to higher number of defects
-	Identify and remove defects
-	Conduct manual reviews
-	Use Testing 
-Testing
+
+## Steps Towards Software Quality:
+
+Use a standard development process
+Use a coding standard
+- Compliance with industry standards (e.g., ISO, Safety, etc.)
+- Consistent code quality 
+- Secure from start
+- Reduce development costs and accelerate time to market
+Define and monitor metrics (defect metrics and complexity metrics) 
+- High complexity leads to higher number of defects
+Identify and remove defects
+- Conduct manual reviews
+- Use Testing 
+# Testing
 Mauro Pezze and Michal Young. Software testing and analysis - process, principles and techniques. Wiley, 2007. 
-Testing process: key elements and relationships
+## Testing process: key elements and relationships
 Oracle -> Observes -> System under test
 Test Cases -> execute -> System under test
 Oracle -> checks -> Test Cases
