@@ -24,12 +24,12 @@ Compare two Oscar nominated.. Get lunch ideas based on what's in your fridge
 The chatbot generated an incorrect fact about the James Webb Space Telescope in its very first public demo. The incident has dramatically highlighted one of the most pertinent dangers for marketers using AI: it doesn’t always tell the truth.
 https://www.thedrum.com/news/2023/02/09/attention-marketers-google-s-100bn-bard-blunder-underscores-current-dangers-using-ai
 ## Why is Software Quality relevant?
-### Reputation
-### Cost of Product and Maintenance
-### Software Certification
-### Organizational Certification
-### Legality
-### Moral/ethical codes of practice
+- Reputation
+- Cost of Product and Maintenance
+- Software Certification
+- Organizational Certification
+- Legality
+- Moral/ethical codes of practice
 ## Reputation
 Reputation Software developers and their organisations rely on reputation. A poor quality product (or family of products) can be enormously damaging for business. Software bugs can have immediate impacts on custom, especially in customer-facing industries. The automotive software problems with Volkswagen have led to an enormous amount of negative publicity, which has a direct impact on sales. 
 ## Limiting Costs of Product and Maintenance Cost 
@@ -44,8 +44,7 @@ Legality Depending on the country, there may be overriding legal obligations tha
 Moral / ethical codes of practice Even in cases where a software system is not covered by industrial certification and legislation, and where its failure is not necessarily business or safety-critical, there can remain a moral obligation to the users. Professional organisations such as the American Computer Society (ACM) have explicit ethical guidelines and codes of practice, with statements such as “Software engineers shall act consistently with the public interest”. This clearly implies that they ought to do whatever possible to maximise the quality of their software and to prevent it from containing potentially harmful bugs. 
 # Software Quality is Multi-dimensional
 Subjective or “fitness for use”: as perceived by an individual user (e.g., aesthetics of GUI, missing functionality…)
-
-Fitness for use: Joseph Juran embodied the idea that the quality of product revolves around its fitness for use . He argued that, ultimately, the value of a product depends on the customer’s needs. Crucially, it forges the product developers to focus on those aspects of the product that are especially crucial (the vital few objectives) as opposed to the useful many. 
+- Fitness for use: Joseph Juran embodied the idea that the quality of product revolves around its fitness for use . He argued that, ultimately, the value of a product depends on the customer’s needs. Crucially, it forges the product developers to focus on those aspects of the product that are especially crucial (the vital few objectives) as opposed to the useful many. 
 
 Objective or “conformance to requirements”: can be measured as a property of the product (e.g., detailed documentation, number of bugs, compliance with regulations …. )
 	
