@@ -177,7 +177,7 @@ White box testing exploits this to
 	}
 	return type;
 	}
-
+```
 
 Access to software ``internals’’: 
 	Source code
