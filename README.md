@@ -43,11 +43,15 @@ Legality Depending on the country, there may be overriding legal obligations tha
 ## Moral / ethical codes of practice
 Moral / ethical codes of practice Even in cases where a software system is not covered by industrial certification and legislation, and where its failure is not necessarily business or safety-critical, there can remain a moral obligation to the users. Professional organisations such as the American Computer Society (ACM) have explicit ethical guidelines and codes of practice, with statements such as “Software engineers shall act consistently with the public interest”. This clearly implies that they ought to do whatever possible to maximise the quality of their software and to prevent it from containing potentially harmful bugs. 
 # Software Quality is Multi-dimensional
-	Subjective or “fitness for use”: as perceived by an individual user (e.g., aesthetics of GUI, missing functionality…)
-	Fitness for use: Joseph Juran embodied the idea that the quality of product revolves around its fitness for use . He argued that, ultimately, the value of a product depends on the customer’s needs. Crucially, it forges the product developers to focus on those aspects of the product that are especially crucial (the vital few objectives) as opposed to the useful many. 
-	Objective or “conformance to requirements”: can be measured as a property of the product (e.g., detailed documentation, number of bugs, compliance with regulations …. )
-	Conformance to Requirements: Phil Crosby embodied a different tone. He defined quality as “conformance to requirements” . His opinion was that quality can be achieved by the disciplined specification of these requirements, by setting goals, educating employees about the goals, and planning the product in such a way that defects would be avoided. 
-	Practical: what does it mean to your team and your clients?
+Subjective or “fitness for use”: as perceived by an individual user (e.g., aesthetics of GUI, missing functionality…)
+
+Fitness for use: Joseph Juran embodied the idea that the quality of product revolves around its fitness for use . He argued that, ultimately, the value of a product depends on the customer’s needs. Crucially, it forges the product developers to focus on those aspects of the product that are especially crucial (the vital few objectives) as opposed to the useful many. 
+
+Objective or “conformance to requirements”: can be measured as a property of the product (e.g., detailed documentation, number of bugs, compliance with regulations …. )
+	
+Conformance to Requirements: Phil Crosby embodied a different tone. He defined quality as “conformance to requirements” . His opinion was that quality can be achieved by the disciplined specification of these requirements, by setting goals, educating employees about the goals, and planning the product in such a way that defects would be avoided. 
+	
+Practical: what does it mean to your team and your clients?
 ## Quality Models: ISO/IES25010
 	Functional Suitability
 - Functional Completeness
