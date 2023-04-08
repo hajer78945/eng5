@@ -263,10 +263,10 @@ Identify tests by analysing the program interface
 1. Decompose program into “functional units” 
 2. Identify inputs / parameters for these units
 3. For each input
-- Identify its limits and characteristics 
-- Define “partitions” - value categories 
-- Identify constraints between categories 
-- Write test specification
+	- Identify its limits and characteristics 
+	- Define “partitions” - value categories 
+	- Identify constraints between categories 
+	- Write test specification
 ## Example – Generate Grading Component
 The component is passed an exam mark (out of 75) and a coursework (c/w) mark (out of 25), from which it generates a grade for the course in the range 'A' to 'D'. The grade is calculated from the overall mark which is calculated as the sum of the exam and c/w marks, as follows: 
 greater than or equal to 70 - 'A' 
