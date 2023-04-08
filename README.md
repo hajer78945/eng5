@@ -53,15 +53,15 @@ Conformance to Requirements: Phil Crosby embodied a different tone. He defined q
 	
 Practical: what does it mean to your team and your clients?
 ## Quality Models: ISO/IES25010
-	Functional Suitability
+Functional Suitability
 - Functional Completeness
 - Functional Correctness
 - Functional Appropriateness
-	Performance Efficiency
+Performance Efficiency
 - Time Behaviour
 - Resource Utilisation
 - Capacity
-	Compatibility
+Compatibility
 - Co-existence
 - Interoperability
 	Usability
