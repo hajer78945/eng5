@@ -122,7 +122,7 @@ Mauro Pezze and Michal Young. Software testing and analysis - process, principle
 ## Testing process: key elements and relationships
 ```mermaid
 graph TD;
-	Systemundertest --> implements 
+	System\ under\ test --> implements 
 	implements --> Specification
     
 ```
