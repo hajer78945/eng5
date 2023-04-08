@@ -354,17 +354,27 @@ Not all categories can combine with each other
 | invalid coursework mark | CM_5 | real number |
 
 ## EP – 3. d Write Test Specifications
-EM1 -> CM1
-EM1 -> CM2
-EM1 -> CM3
-EM1 -> CM4
-EM1 -> CM5
-EM5 -> CM1
-EM5 -> CM2
-EM5 -> CM3
-EM5 -> CM4
-EM5 -> CM5
-Example: Inputs and Expected Outputs
+```mermaid
+graph LR
+EM1[EM_1] --> EM2[EM_2]
+EM1 --> EM3[EM_3]
+EM1 --> EM4[EM_4]
+EM1 --> EM5[EM_5]
+EM5 --> EM2
+EM5 --> EM3
+EM5 --> EM4
+EM5 --> EM5
+CM1[CM_1] --> CM2[CM_2]
+CM1 --> CM3[CM_3]
+CM1 --> CM4[CM_4]
+CM1 --> CM5[CM_5]
+CM5 --> CM2
+CM5 --> CM3
+CM5 --> CM4
+CM5 --> CM5
+```
+
+## Example: Inputs and Expected Outputs
 The test cases corresponding to partitions derived from the input exam mark are:
 Test Case	1	2	3
 Input (exam mark)	44	-10	93
