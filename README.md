@@ -203,7 +203,21 @@ White box testing exploits this to
 ```mermaid
 graph TD;
 int_tri_type(int_a,int_b,inc_c) --> int_type
+; --> if(a>b) --> int_t=a;
+
 ```
+if(a > b) --> int t = a; --> a = b; --> b = t; --> if(a > c)
+if(a > b) --> if(a > c)
+if(a > c) --> int t = a; --> a = c; --> c = t; --> if(b > c)
+if(a > c) --> if(b > c)
+if(b > c) --> int t = b; --> b = c; --> c =t; --> if(a + b <= c)
+if(b > c) --> if(a + b <= c)
+if(a + b <= c) -> type=SC ALENE; -> return type;
+or if(a + b <= c) -> type = NOT_A_TRIANGLE; -> if(a== b && b ==c)
+if(a== b && b ==c) -> type=EQUILATERAL; -> return type;
+or if(a== b && b ==c) -> else if(a==b || b==c)
+else if(a==b || b==c) -> type=ISOSCELES; -> return type;
+or else if(a==b || b==c) -> return type;
 
 Coverage Metrics: 
 - Statement coverage 
