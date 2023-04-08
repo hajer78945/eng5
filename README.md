@@ -230,11 +230,13 @@ Def-Use or Dataflow coverage: The source code is analysed to extract the def-use
 Coverage = $$ "|Statements executed|" /"|Total statements|" $$
 
 ## Branch Coverage
-	Test inputs should collectively have executed each branch
-	Subsumes statement coverage
-	Computed as:
+- Test inputs should collectively have executed each branch
+- Subsumes statement coverage
+- Computed as:
+
 Coverage = "|Branches executed|" /"|Total branches|" 
-However….
+
+## However….
 Coverage Is Not Strongly Correlated with Test Suite Effectiveness
 Laura Inozemtseva and Reid Holmes School of Computer Science. University of Waterloo Waterloo, ON, Canada {Iminozem,rtholmes}@uwaterloo.ca
 We have extended these studies by evaluating the relation- ship between test suite size, coverage, and effectiveness for large Java programs. Our study is the largest to date in the literature: we generated 31,000 test suites for five systems consisting of up to 724,000 lines of source code. We measured the statement coverage, decision coverage, and modified con- dition coverage of these suites and used mutation testing to evaluate their fault detection effectiveness.
