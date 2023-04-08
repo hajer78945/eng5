@@ -207,6 +207,8 @@ id2["int type;"]
 id1 --> id2;
 id3["if (a > b)"]
 id2 --> id3;
+id4["if(a > c)"]
+id3 --> id4;
 
 ```
 if(a > b) --> int t = a; --> a = b; --> b = t; --> if(a > c)
