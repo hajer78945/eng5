@@ -339,19 +339,21 @@ Significant value ranges / value-characteristics of an input
 | Invalid | CM_5 invalid coursework mark | real number |
 
 ## EP – 3. c Identify Constraints between Categories
-	Not all categories can combine with each other
-Category		Condition
-valid exam mark	EM_1	0 ≤  Exam mark ≤ 75
-invalid exam mark	EM_2	Exam mark > 75 
-invalid exam mark	EM_3	Exam mark < 0
-invalid exam mark	EM_4	alphabetic
-invalid exam mark	EM_5	real number
-valid coursework mark	CM_1	0 ≤  Coursework mark ≤ 25
-invalid coursework mark	CM_2	Coursework mark > 25 
-invalid coursework mark	CM_3	Coursework mark < 0
-invalid coursework mark	CM_4	alphabetic
-invalid coursework mark	CM_5	real number
-EP – 3. d Write Test Specifications
+Not all categories can combine with each other
+| Category | | Condition |
+| --- | --- | --- |
+| valid exam mark | EM_1 |  0 ≤  Exam mark ≤ 75 |
+| invalid exam mark | EM_2 | Exam mark > 75 |
+| invalid exam mark | EM_3 | Exam mark < 0 |
+| invalid exam mark | EM_4 | alphabetic |
+| invalid exam mark | EM_5 | real number |
+| valid coursework mark | CM_1 | 0 ≤  Coursework mark ≤ 25 |
+| invalid coursework mark | CM_2 | Coursework mark > 25 |
+| invalid coursework mark | CM_3 | Coursework mark < 0 |
+| invalid coursework mark | CM_4 | alphabetic |
+| invalid coursework mark | CM_5 | real number |
+
+## EP – 3. d Write Test Specifications
 EM1 -> CM1
 EM1 -> CM2
 EM1 -> CM3
