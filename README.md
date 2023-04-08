@@ -223,12 +223,6 @@ id19 --> id21["else if(a == b || b == c)"] --> id22["type = ISOSCELES;"] --> id1
 id21 --> id16
 ```
 
-if(a + b <= c) -> type=SC ALENE; -> return type;
-or if(a + b <= c) -> type = NOT_A_TRIANGLE; -> if(a== b && b ==c)
-if(a== b && b ==c) -> type=EQUILATERAL; -> return type;
-or if(a== b && b ==c) -> else if(a==b || b==c)
-else if(a==b || b==c) -> type=ISOSCELES; -> return type;
-or else if(a==b || b==c) -> return type;
 
 Coverage Metrics: 
 - Statement coverage 
