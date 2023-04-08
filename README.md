@@ -180,13 +180,16 @@ White box testing exploits this to
 ```
 
 Access to software ``internals’’: 
-	Source code
-	Runtime state
-	Can keep track of executions.
-	White box testing exploits this to
-	Use code to measure coverage
-	Many different ways 
-	Drive generation of tests that maximise coverage. 
+- Source code
+- Runtime state
+- Can keep track of executions.
+
+White box testing exploits this to
+- Use code to measure coverage
+- Many different ways 
+- Drive generation of tests that maximise coverage.
+
+```c
 int tri_type(int a, int b, inc c) -> int type; -> if(a > b) -> int t = a;
 if(a > b) -> int t = a; -> a = b; -> b = t; -> if(a > c)
 or if(a > b) -> if(a > c)
@@ -200,25 +203,31 @@ if(a== b && b ==c) -> type=EQUILATERAL; -> return type;
 or if(a== b && b ==c) -> else if(a==b || b==c)
 else if(a==b || b==c) -> type=ISOSCELES; -> return type;
 or else if(a==b || b==c) -> return type;
+```
 
-	Coverage Metrics: 
-	Statement coverage 
-	Branch coverage 
-	Def-Use or Dataflow coverage 
-	MC/DC (Modified Condition / Decision Coverage)
-	Mutation coverage… 
-	Prescribed metrics, e.g., DO178-B/C standard for civilian aircraft software 
-	non-critical - statement coverage
-	safety-critical -  MC/DC coverage
-	Statement coverage: The proportion of executable statements in the program that have been executed. 
-	Branch coverage: The proportion of all of the logic-branches in the source code (e.g. outcomes of IF, WHILE, or FOR statements) to have been executed. 
-	Def-Use or Dataflow coverage: The source code is analysed to extract the def-use relations, which relate statements at which a variable is defined (i.e. instantiated and given a value) to subsequent statements using that definition. The test-goal is to cover all of the possible def-use relations. 
-Statement Coverage
-	Test inputs should collectively have executed each statement
-	If a statement always exhibits a fault when executed, it will be detected
-	Computed as:
+Coverage Metrics: 
+- Statement coverage 
+- Branch coverage 
+- Def-Use or Dataflow coverage 
+- MC/DC (Modified Condition / Decision Coverage)
+- Mutation coverage… 
+
+Prescribed metrics, e.g., DO178-B/C standard for civilian aircraft software 
+- non-critical - statement coverage
+- safety-critical -  MC/DC coverage
+
+Statement coverage: The proportion of executable statements in the program that have been executed. 
+
+Branch coverage: The proportion of all of the logic-branches in the source code (e.g. outcomes of IF, WHILE, or FOR statements) to have been executed. 
+
+Def-Use or Dataflow coverage: The source code is analysed to extract the def-use relations, which relate statements at which a variable is defined (i.e. instantiated and given a value) to subsequent statements using that definition. The test-goal is to cover all of the possible def-use relations. 
+
+## Statement Coverage
+- Test inputs should collectively have executed each statement
+- If a statement always exhibits a fault when executed, it will be detected
+- Computed as:
 Coverage = "|Statements executed|" /"|Total statements|" 
-Branch Coverage
+## Branch Coverage
 	Test inputs should collectively have executed each branch
 	Subsumes statement coverage
 	Computed as:
