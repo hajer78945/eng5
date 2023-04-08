@@ -202,7 +202,7 @@ White box testing exploits this to
 
 ```mermaid
 graph TD;
-int_tri_type(int_a,int_b,inc_c) --> int_type; --> if(a>b) 
+int_tri_type(int_a,int_b,inc_c) --> int_type; --> if(a>b); 
 ```
 
 Coverage Metrics: 
