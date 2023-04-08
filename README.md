@@ -220,8 +220,7 @@ id16["return type;"]
 id12 --> id17["type = NOT_A_TRIANGLE;"] --> id16
 id12 --> id18["type = SCALENE;"] --> id19["if(a == b && b == c)"] --> id20["type = EQUILATERAL;"] --> id16
 id19 --> id21["else if(a == b || b == c)"] --> id22["type = ISOSCELES;"] --> id16
-id19 --> id16
-
+id21 --> id16
 ```
 
 if(a + b <= c) -> type=SC ALENE; -> return type;
