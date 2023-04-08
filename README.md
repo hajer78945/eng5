@@ -124,10 +124,7 @@ Mauro Pezze and Michal Young. Software testing and analysis - process, principle
 graph TD;
 	System under test --> implements 
 	implements --> Specification
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    
 ```
 - Oracle -> Observes -> System under test
 - Test Cases -> execute -> System under test
