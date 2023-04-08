@@ -356,24 +356,17 @@ Not all categories can combine with each other
 ## EP – 3. d Write Test Specifications
 ```mermaid
 graph LR
-EM1[EM_1] --> EM2[EM_2]
-EM1 --> EM3[EM_3]
-EM1 --> EM4[EM_4]
-EM1 --> EM5[EM_5]
-EM5 --> EM2
-EM5 --> EM3
-EM5 --> EM4
-EM5 --> EM5
-CM1[CM_1] --> CM2[CM_2]
-CM1 --> CM3[CM_3]
-CM1 --> CM4[CM_4]
-CM1 --> CM5[CM_5]
-CM5 --> CM2
-CM5 --> CM3
-CM5 --> CM4
-CM5 --> CM5
+EM1 --> CM1
+EM1 --> CM2
+EM1 --> CM3
+EM1 --> CM4
+EM1 --> CM5
+EM2 --> CM1
+EM2 --> CM2
+EM2 --> CM3
+EM2 --> CM4
+EM2 --> CM5
 ```
-
 ## Example: Inputs and Expected Outputs
 The test cases corresponding to partitions derived from the input exam mark are:
 Test Case	1	2	3
