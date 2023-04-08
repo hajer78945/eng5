@@ -209,6 +209,7 @@ id3["if (a > b)"]
 id2 --> id3;
 id4["if(a > c)"]
 id3 --> id4;
+id3 --> id5["int t = a;"] --> id6["a = b;"] --> id7["b = t;"] --> id4
 
 ```
 if(a > b) --> int t = a; --> a = b; --> b = t; --> if(a > c)
