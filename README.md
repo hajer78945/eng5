@@ -120,12 +120,12 @@ Identify and remove defects
 # Testing
 Mauro Pezze and Michal Young. Software testing and analysis - process, principles and techniques. Wiley, 2007. 
 ## Testing process: key elements and relationships
-Oracle -> Observes -> System under test
-Test Cases -> execute -> System under test
-Oracle -> checks -> Test Cases
-System under test -> implements -> Specification
-Oracle -> approximates -> Specification
-Test Cases -> try to Cover -> Specification
+- Oracle -> Observes -> System under test
+- Test Cases -> execute -> System under test
+- Oracle -> checks -> Test Cases
+- System under test -> implements -> Specification
+- Oracle -> approximates -> Specification
+- Test Cases -> try to Cover -> Specification
 
 From: M. Staats, M. W. Whalen, and M. P. E. Heimdahl. Programs, tests, and oracles: the foundations of testing revisited. In Software Engineering (ICSE), 2011 33rd International Conference on, pages 391–400. IEEE, 2011.
 
