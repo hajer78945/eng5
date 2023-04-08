@@ -226,6 +226,7 @@ Def-Use or Dataflow coverage: The source code is analysed to extract the def-use
 - Test inputs should collectively have executed each statement
 - If a statement always exhibits a fault when executed, it will be detected
 - Computed as:
+
 Coverage = "|Statements executed|" /"|Total statements|" 
 ## Branch Coverage
 	Test inputs should collectively have executed each branch
