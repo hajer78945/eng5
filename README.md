@@ -31,17 +31,17 @@ https://www.thedrum.com/news/2023/02/09/attention-marketers-google-s-100bn-bard-
 - Organizational Certification
 - Legality
 - Moral/ethical codes of practice
-## Reputation
+### Reputation
 Reputation Software developers and their organisations rely on reputation. A poor quality product (or family of products) can be enormously damaging for business. Software bugs can have immediate impacts on custom, especially in customer-facing industries. The automotive software problems with Volkswagen have led to an enormous amount of negative publicity, which has a direct impact on sales. 
-## Limiting Costs of Product and Maintenance Cost 
+### Limiting Costs of Product and Maintenance Cost 
 Limiting Costs of Product and Maintenance Cost is an overriding factor in software development. Poor quality software tends to be expensive to develop and to maintain, which can have a detrimental effect on business. Poor software quality can lead to technical debt, where the organisation in charge of the software needs to invest a disproportionate amount of resources into maintaining and running the software to make up for (and to try and remedy) poor design and implementation decisions. 
-## Software Certification
+### Software Certification
 Software Certification Depending on the domain of the software (e.g. in Aircraft or Rail), the development and use of software might be restricted, and dependent on obtaining some form of certification. For example, software in modern civilian aircraft often has to be certified to the DO178 standard, which requires the extensive use of software quality assurance procedures throughout the software development lifecycle. 
-## Organisational Certification
+### Organisational Certification
 Organisational Certification The organisational procedures and structures that are employed for software development can have a huge bearing on the quality of the software they produce. There are various ways by which to categorise the extent to which an organisation employs good practice. International certification procedures and standards such as CMM and ISO90017 exist, so that software development organisations can advertise their “capability” to develop high quality software. 
-## Legality
+### Legality
 Legality Depending on the country, there may be overriding legal obligations that apply to organisations that use software. For example, in the UK, organisations have to demonstrate that the risk posed by their technology (this includes software) is “As Low As Reasonably Practicable” or “ALARP” . In other words, every “practicable” measure must have been taken to demonstrate that (in our case) the software system does not pose a risk to its users. 
-## Moral / ethical codes of practice
+### Moral / ethical codes of practice
 Moral / ethical codes of practice Even in cases where a software system is not covered by industrial certification and legislation, and where its failure is not necessarily business or safety-critical, there can remain a moral obligation to the users. Professional organisations such as the American Computer Society (ACM) have explicit ethical guidelines and codes of practice, with statements such as “Software engineers shall act consistently with the public interest”. This clearly implies that they ought to do whatever possible to maximise the quality of their software and to prevent it from containing potentially harmful bugs. 
 # Software Quality is Multi-dimensional
 Subjective or “fitness for use”: as perceived by an individual user (e.g., aesthetics of GUI, missing functionality…)
@@ -49,7 +49,7 @@ Subjective or “fitness for use”: as perceived by an individual user (e.g., a
 
 Objective or “conformance to requirements”: can be measured as a property of the product (e.g., detailed documentation, number of bugs, compliance with regulations …. )
 	
-Conformance to Requirements: Phil Crosby embodied a different tone. He defined quality as “conformance to requirements” . His opinion was that quality can be achieved by the disciplined specification of these requirements, by setting goals, educating employees about the goals, and planning the product in such a way that defects would be avoided. 
+- Conformance to Requirements: Phil Crosby embodied a different tone. He defined quality as “conformance to requirements” . His opinion was that quality can be achieved by the disciplined specification of these requirements, by setting goals, educating employees about the goals, and planning the product in such a way that defects would be avoided. 
 	
 Practical: what does it mean to your team and your clients?
 ## Quality Models: ISO/IES25010
@@ -123,30 +123,36 @@ Oracle -> checks -> Test Cases
 System under test -> implements -> Specification
 Oracle -> approximates -> Specification
 Test Cases -> try to Cover -> Specification
-From: M. Staats, M. W. Whalen, and M. P. E. Heimdahl. Programs, tests, and oracles: the foundations of testing revisited. In Software Engineering (ICSE), 2011 33rd International Conference on, pages 391–400. IEEE, 2011. 
 
+From: M. Staats, M. W. Whalen, and M. P. E. Heimdahl. Programs, tests, and oracles: the foundations of testing revisited. In Software Engineering (ICSE), 2011 33rd International Conference on, pages 391–400. IEEE, 2011.
+
+## System under Test (SUT)
 System under Test (SUT) This is the system (or unit/function) being tested. It seeks to implement the specification. 
-	The SUT can either be a white-box system, where we have complete access to the source code and the run-time state (e.g. the call-stack), or a black-box system, where we only have access to the external interface or API (depending on the type of system). It can also be a mixture of the two; for example, library routines might be provided in the form of closed source components, whilst the source code for the main core of the system is available for analysis.
+- The SUT can either be a white-box system, where we have complete access to the source code and the run-time state (e.g. the call-stack), or a black-box system, where we only have access to the external interface or API (depending on the type of system). It can also be a mixture of the two; for example, library routines might be provided in the form of closed source components, whilst the source code for the main core of the system is available for analysis.
 The system might be reactive where the input / output behaviour at one stage is affected by previous inputs (e.g. a GUI), or it might process inputs in a single batch and return to its initial state. This matters from a testing perspective, because in the reactive case, the test inputs have to be formulated as sequences. 
-	The system might be deterministic, where it always returns the same answer for a given input. It might however also be non-deterministic, where the same input can elicit different outputs (perhaps because of randomised internal behaviour, or other factors beyond control such as thread-scheduling). 
-	It is commonly important to ensure that the SUT is an isolated version of the “live” system. 
+- The system might be deterministic, where it always returns the same answer for a given input. It might however also be non-deterministic, where the same input can elicit different outputs (perhaps because of randomised internal behaviour, or other factors beyond control such as thread-scheduling). 
+- It is commonly important to ensure that the SUT is an isolated version of the “live” system. 
+## Specification
 Specification A specification represents the idealised behaviour of the system under test. Depending on the development context, this might be embodied as a comprehensive, rigorously maintained document (e.g. a set of UML diagrams or a Z specification). Alternatively, if developed in an agile context, it might be a partial intuitive description captured in a selection of user stories, test cases, and documented as comments in the source code. 
-	The nature of the specification has an obvious bearing on testing. If a concrete, reliable specification document exists and there is a shared understanding of what the system is supposed to do, this can be used as the basis for a systematic test-generation process. If this is not the case, then testing becomes a more ad-hoc and dependent upon the intuition and experience of the tester.
- 
+- The nature of the specification has an obvious bearing on testing. If a concrete, reliable specification document exists and there is a shared understanding of what the system is supposed to do, this can be used as the basis for a systematic test-generation process. If this is not the case, then testing becomes a more ad-hoc and dependent upon the intuition and experience of the tester.
+## Test cases
 Test cases The test cases correspond to the executions of the SUT. In practical terms a test case corresponds to an input (or a sequence of inputs) to the system. 
-	Test cases should ideally cumulatively execute every distinctive facet of software behaviour. An ideal test set (collection of test cases) should be capable of exposing any deviation that the SUT makes from the specification. If it can be shown to do this, the test set is deemed to be adequate. 
+- Test cases should ideally cumulatively execute every distinctive facet of software behaviour. An ideal test set (collection of test cases) should be capable of exposing any deviation that the SUT makes from the specification. If it can be shown to do this, the test set is deemed to be adequate. 
+## Test Oracle 
 Test Oracle Executing the test cases alone will not determine whether the SUT conforms to the specification or not. This decision – whether or not the output of a test is correct or not – is made by a test oracle. In practice, an oracle might be an assertion in the source code that is checked during the test execution, or it might be the human user, deciding whether or not the behaviour is acceptable. 
-	Test oracles are notoriously difficult to produce. There is in practice rarely an explicit, comprehensive, up to date specification that can be used as a reference. A successful software has usually been developed over the course of decades by a multitude of developers, which means that, ultimately, there is rarely a definitive record of how exactly the system should behave. What’s more, there may be tens of thousands of test cases, each of which might produces complex outputs, which can make the task of manual validation of the outputs prohibitively time consuming. These issues are collectively referred to as the oracle problem. 
-Testing: White Box
-White Box Testing
-	Access to software ``internals’’: 
-	Source code
-	Runtime state
-	Can keep track of executions.
-	White box testing exploits this to
-	Use code to measure coverage
-	Many different ways 
-	Drive generation of tests that maximise coverage 
+- Test oracles are notoriously difficult to produce. There is in practice rarely an explicit, comprehensive, up to date specification that can be used as a reference. A successful software has usually been developed over the course of decades by a multitude of developers, which means that, ultimately, there is rarely a definitive record of how exactly the system should behave. What’s more, there may be tens of thousands of test cases, each of which might produces complex outputs, which can make the task of manual validation of the outputs prohibitively time consuming. These issues are collectively referred to as the oracle problem. 
+# Testing: White Box
+Mauro Pezze and Michal Young. Software testing and analysis - process, principles and techniques. Wiley, 2007. 
+## White Box Testing
+Access to software ``internals’’: 
+- Source code
+- Runtime state
+- Can keep track of executions.
+White box testing exploits this to
+- Use code to measure coverage
+- Many different ways 
+- Drive generation of tests that maximise coverage
+ 
 int tri_type(int a, int b, int c) { 
 int type;
 if (a > b)
