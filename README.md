@@ -123,7 +123,7 @@ Mauro Pezze and Michal Young. Software testing and analysis - process, principle
 ```mermaid
 graph TD;
 	SystemUnderTest --> implements --> Specification
-	
+	Oracle --> Observes --> SystemUnderTest
     
 ```
 - Oracle -> Observes -> System under test
