@@ -302,7 +302,7 @@ Valid	valid exam mark
 Invalid	invalid exam mark
 	invalid coursework mark
 	Invalid total mark
-EP: 3.b Define “Partitions” - value categories
+## EP: 3.b Define “Partitions” - value categories
 Significant value ranges / value-characteristics of an input
 Category	Description	Partition
 Valid	EM_1 valid exam mark	0 ≤  Exam mark ≤ 75
@@ -359,11 +359,11 @@ Use JUnit
 Allow us to state what should be the case
 If assertions do not hold, JUnit’s logging mechanisms reports failures
 Various types of assertion are available, e.g., assertEquals( expected, actual ); assertTrue( condition ); assertFalse( condition ); assertThat ( value, matchingFunction )
-Review
-	What is Software Quality?
-	What are key elements and relationships for test specifications?
-	How do we carry out white-box testing?
-	How do we carry out black-box testing?
+# Review
+- What is Software Quality?
+- What are key elements and relationships for test specifications?
+- How do we carry out white-box testing?
+- How do we carry out black-box testing?
 
 
 
