@@ -199,20 +199,14 @@ White box testing exploits this to
 - Many different ways 
 - Drive generation of tests that maximise coverage.
 
-```c
-int tri_type(int a, int b, inc c) -> int type; -> if(a > b) -> int t = a;
-if(a > b) -> int t = a; -> a = b; -> b = t; -> if(a > c)
-or if(a > b) -> if(a > c)
-if(a > c) -> int t = a; -> a = c; -> c = t; -> if(b > c)
-or if(a > c) -> if(b > c)
-if(b > c) -> int t = b; -> b = c; -> c =t; -> if(a + b <= c)
-or if(b > c) -> if(a + b <= c)
-if(a + b <= c) -> type=SC ALENE; -> return type;
-or if(a + b <= c) -> type = NOT_A_TRIANGLE; -> if(a== b && b ==c)
-if(a== b && b ==c) -> type=EQUILATERAL; -> return type;
-or if(a== b && b ==c) -> else if(a==b || b==c)
-else if(a==b || b==c) -> type=ISOSCELES; -> return type;
-or else if(a==b || b==c) -> return type;
+
+```mermaid
+graph TD;
+int tri_type(int a, int b, inc c) --> int type; --> if(a > b) -> int t = a;
+if(a > b) --> int t = a; --> a = b; --> b = t; --> if(a > c)
+if(a > b) --> if(a > c)
+if(a > c) --> int t = a; --> a = c; --> c = t; --> if(b > c)
+
 ```
 
 Coverage Metrics: 
