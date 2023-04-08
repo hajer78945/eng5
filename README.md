@@ -122,8 +122,8 @@ Mauro Pezze and Michal Young. Software testing and analysis - process, principle
 ## Testing process: key elements and relationships
 ```mermaid
 graph TD;
-	System\ under\ test --> implements 
-	implements --> Specification
+	SystemUnderTest --> implements --> Specification
+	
     
 ```
 - Oracle -> Observes -> System under test
