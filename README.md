@@ -1,8 +1,8 @@
 # Overview
-	Software quality and how to get to it
-	Test-driven development
-    	White box testing  
-	    Black box testing 
+## Software quality and how to get to it
+## Test-driven development
+### White box testing  
+### Black box testing 
 # Software Quality
 ## Why is Software Quality relevant: Case of Bard
 Google Bard AI mistake just cost Google over $100 billion
@@ -22,14 +22,15 @@ Compare two Oscar nominated.. Get lunch ideas based on what's in your fridge
 
 The chatbot generated an incorrect fact about the James Webb Space Telescope in its very first public demo. The incident has dramatically highlighted one of the most pertinent dangers for marketers using AI: it doesn’t always tell the truth.
 https://www.thedrum.com/news/2023/02/09/attention-marketers-google-s-100bn-bard-blunder-underscores-current-dangers-using-ai
-Why is Software Quality relevant?
-	Reputation
-	Cost of Product and Maintenance
-	Software Certification
-	Organizational Certification
-	Legality
-	Moral/ethical codes of practice
-	Reputation Software developers and their organisations rely on reputation. A poor quality product (or family of products) can be enormously damaging for business. Software bugs can have immediate impacts on custom, especially in customer-facing industries. The automotive software problems with Volkswagen have led to an enormous amount of negative publicity, which has a direct impact on sales. 
+## Why is Software Quality relevant?
+### Reputation
+### Cost of Product and Maintenance
+### Software Certification
+### Organizational Certification
+### Legality
+### Moral/ethical codes of practice
+### Reputation
+	Software developers and their organisations rely on reputation. A poor quality product (or family of products) can be enormously damaging for business. Software bugs can have immediate impacts on custom, especially in customer-facing industries. The automotive software problems with Volkswagen have led to an enormous amount of negative publicity, which has a direct impact on sales. 
 	Limiting Costs of Product and Maintenance Cost is an overriding factor in software development. Poor quality software tends to be expensive to develop and to maintain, which can have a detrimental effect on business. Poor software quality can lead to technical debt, where the organisation in charge of the software needs to invest a disproportionate amount of resources into maintaining and running the software to make up for (and to try and remedy) poor design and implementation decisions. 
 	Software Certification Depending on the domain of the software (e.g. in Aircraft or Rail), the development and use of software might be restricted, and dependent on obtaining some form of certification. For example, software in modern civilian aircraft often has to be certified to the DO178 standard, which requires the extensive use of software quality assurance procedures throughout the software development lifecycle. 
 	Organisational Certification The organisational procedures and structures that are employed for software development can have a huge bearing on the quality of the software they produce. There are various ways by which to categorise the extent to which an organisation employs good practice. International certification procedures and standards such as CMM and ISO90017 exist, so that software development organisations can advertise their “capability” to develop high quality software. 
