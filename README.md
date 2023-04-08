@@ -227,14 +227,14 @@ Def-Use or Dataflow coverage: The source code is analysed to extract the def-use
 - If a statement always exhibits a fault when executed, it will be detected
 - Computed as:
 
-$$Coverage=\frac{|Statements\quadexecuted|}{|Total\quadstatements|}$$
+$$Coverage=\frac{|Statements\ executed|}{|Total\ statements|}$$
 
 ## Branch Coverage
 - Test inputs should collectively have executed each branch
 - Subsumes statement coverage
 - Computed as:
 
-$$Coverage = \frac{|Branches executed|}{|Total branches|}$$
+$$Coverage = \frac{|Branches\ executed|}{|Total\ branches|}$$
 
 ## However….
 Coverage Is Not Strongly Correlated with Test Suite Effectiveness
