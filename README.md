@@ -122,7 +122,8 @@ Mauro Pezze and Michal Young. Software testing and analysis - process, principle
 ## Testing process: key elements and relationships
 ```mermaid
 graph TD;
-	System under test --> implements --> Specification
+	System under test --> implements 
+	implements --> Specification
     A-->B;
     A-->C;
     B-->D;
