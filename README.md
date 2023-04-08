@@ -120,6 +120,13 @@ Identify and remove defects
 # Testing
 Mauro Pezze and Michal Young. Software testing and analysis - process, principles and techniques. Wiley, 2007. 
 ## Testing process: key elements and relationships
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 - Oracle -> Observes -> System under test
 - Test Cases -> execute -> System under test
 - Oracle -> checks -> Test Cases
