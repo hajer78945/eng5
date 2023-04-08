@@ -210,14 +210,15 @@ id2 --> id3;
 id4["if(a > c)"]
 id3 --> id5["int t = a;"] --> id6["a = b;"] --> id7["b = t;"] --> id4
 id3 --> id4;
+id8["if(b > c)"]
+id4 --> id9["int t = a;"] --> id10["a = c;"] --> id11["c = t;"] --> id8
+id4 --> id8;
+id12["if(a + b <= c)"]
+id8 --> id13["int t = b;"] --> id14["b = c;"] --> id15["c = t;"] --> id12
+id8 --> id12;
 
 ```
-if(a > b) --> int t = a; --> a = b; --> b = t; --> if(a > c)
-if(a > b) --> if(a > c)
-if(a > c) --> int t = a; --> a = c; --> c = t; --> if(b > c)
-if(a > c) --> if(b > c)
-if(b > c) --> int t = b; --> b = c; --> c =t; --> if(a + b <= c)
-if(b > c) --> if(a + b <= c)
+
 if(a + b <= c) -> type=SC ALENE; -> return type;
 or if(a + b <= c) -> type = NOT_A_TRIANGLE; -> if(a== b && b ==c)
 if(a== b && b ==c) -> type=EQUILATERAL; -> return type;
