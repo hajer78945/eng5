@@ -126,6 +126,7 @@ graph TD;
 	Oracle --> Observes --> SystemUnderTest
     TestCases --> execute --> SystemUnderTest
 	Oracle --> checks --> TestCases
+	Oracle --> approximates --> Specification
 	
 ```
 - Oracle -> Observes -> System under test
