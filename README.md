@@ -154,6 +154,7 @@ White box testing exploits this to
 - Many different ways 
 - Drive generation of tests that maximise coverage
 
+```c
 	int tri_type(int a, int b, int c) {
 	int type;
 	if (a > b)
