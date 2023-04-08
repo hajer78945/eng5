@@ -268,30 +268,32 @@ Identify tests by analysing the program interface
 	- Identify constraints between categories 
 	- Write test specification
 ## Example – Generate Grading Component
-The component is passed an exam mark (out of 75) and a coursework (c/w) mark (out of 25), from which it generates a grade for the course in the range 'A' to 'D'. The grade is calculated from the overall mark which is calculated as the sum of the exam and c/w marks, as follows: 
-greater than or equal to 70 - 'A' 
-greater than or equal to 50, but less than 70 - ‘B’ 
-greater than or equal to 30, but less than 50 - ‘C’ 
-less than 30 - 'D' 
-Where a mark is outside its expected range then a fault message ('FM') is generated. All inputs are passed as integers. 
-EP – 1. Decompose into Functional Units
-	Dividing into smaller units is good practice
-	Possible to generate more rigorous test cases. 
-	Easier to debug if faults are found.
-	E.g.: dividing a large Java application into its core modules / packages
-	Already a functional unit for the Grading Component example 
-EP – 2. Identify Inputs and Outputs
-	For some systems this is straightforward
-	E.g., the Triangle program: 
-	Input: 3 numbers, 
-	Output: 1 String
-	E.g., Grading Component
-	Input: 2 integers: exam mark  and coursework mark
-	Output: 1 String for grade
-	For others less so. Consider the following:
-	A phone app.
-	A web-page with a flash component.
-EP – 3.a Identify Categories
+The component is passed an exam mark (out of 75) and a coursework (c/w) mark (out of 25), from which it generates a grade for the course in the range 'A' to 'D'. The grade is calculated from the overall mark which is calculated as the sum of the exam and c/w marks, as follows:
+- greater than or equal to 70 - 'A' 
+- greater than or equal to 50, but less than 70 - ‘B’ 
+- greater than or equal to 30, but less than 50 - ‘C’ 
+- less than 30 - 'D' 
+- Where a mark is outside its expected range then a fault message ('FM') is generated. All inputs are passed as integers. 
+## EP – 1. Decompose into Functional Units
+Dividing into smaller units is good practice
+- Possible to generate more rigorous test cases. 
+- Easier to debug if faults are found.
+
+E.g.: dividing a large Java application into its core modules / packages
+
+Already a functional unit for the Grading Component example 
+## EP – 2. Identify Inputs and Outputs
+For some systems this is straightforward
+1. E.g., the Triangle program: 
+	- Input: 3 numbers, 
+	- Output: 1 String
+2. E.g., Grading Component
+	- Input: 2 integers: exam mark  and coursework mark
+	- Output: 1 String for grade
+For others less so. Consider the following:
+- A phone app.
+- A web-page with a flash component.
+## EP – 3.a Identify Categories
 Category	Description
 Valid	valid exam mark
 	valid coursework mark
