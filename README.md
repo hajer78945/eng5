@@ -9,6 +9,7 @@ Google Bard AI mistake just cost Google over $100 billion
 By Philip Michaels last updated February 09, 2023
 AI-powered chatbot makes costly error in early demo
 https://www.tomsguide.com/news/google-bard-ai-is-off-to-an-embarrassing-start
+
 Isabel Angelo @IsabelNAngelo Follow
 Unfortunately a simple google search would tell us that JWST actually did not "take the very first picture of a planet outside of our own solar system" and this is literally in the ad for Bard so I wouldn't trust it yet
 Google
