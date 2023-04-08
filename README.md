@@ -356,6 +356,7 @@ Not all categories can combine with each other
 ## EP – 3. d Write Test Specifications
 ```mermaid
 graph TD
+id1["For EM2, EM3, EM4: each 5 pairs, as shown for EM1 and EM5"]
 EM1 --> CM1
 EM1 --> CM2
 EM1 --> CM3
