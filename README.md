@@ -234,7 +234,7 @@ $$Coverage=\frac{|Statements executed|}{|Total statements|}$$
 - Subsumes statement coverage
 - Computed as:
 
-Coverage = "|Branches executed|" /"|Total branches|" 
+$$Coverage = \frac{|Branches executed|}{|Total branches|}$$
 
 ## However….
 Coverage Is Not Strongly Correlated with Test Suite Effectiveness
