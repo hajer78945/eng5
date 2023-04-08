@@ -216,25 +216,7 @@ id4 --> id8;
 id12["if(a + b <= c)"]
 id8 --> id13["int t = b;"] --> id14["b = c;"] --> id15["c = t;"] --> id12
 id8 --> id12;
-id16["type = NOT_A_TRIANGLE;"]
-id12 --> id16;
-id17["else"]
-id12 --> id17;
-id18["type = SCALENE;"]
-id17 --> id18;
-id19["if(a == b && b == c)"]
-id18 --> id19;
-id20["type = EQUILATERAL;"]
-id19 --> id20;
-id21["else if(a == b || b == c)"]
-id19 --> id21;
-id22["type = ISOSCELES;"]
-id21 --> id22;
-id23["return type;"]
-id22 --> id23;
-id24["return type;"]
-id20 --> id24;
-id25["return type;"]
+
 
 ```
 
