@@ -202,7 +202,8 @@ White box testing exploits this to
 
 ```mermaid
 graph TD;
-int_tri_type(int_a,int_b,inc_c) --> int_type
+id1[int_tri_type(int_a,int_b,inc_c)]
+id1 --> int_type
 A --> B --> int_t=a;
 
 ```
