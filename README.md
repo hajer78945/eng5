@@ -389,6 +389,7 @@ Most frequently errors occur in "edge" cases
 - Test the boundary value
 ## How do we go about using this?
 Testing applied in Java unit
+
 Use JUnit
 - uses “Assertions” to test the code
 - Allow us to state what should be the case
